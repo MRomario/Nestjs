@@ -17,12 +17,13 @@ export class TasksService {
     }
 
     create(createTaskDto: CreateTaskDto): Task {
-
-        // if use DTO destruct dto
         const { title, description } = createTaskDto
-
         const task: Task = { id: uuid(), title, description, status: TaskStatus.OPEN };
         this.tasks.push(task);
         return task;
+    }
+
+    delete(id: string) {
+        this.tasks = this.tasks.filter(task => task.id !== id);
     }
 }
