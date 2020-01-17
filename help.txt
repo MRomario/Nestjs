@@ -35,6 +35,9 @@ npm install --save @nestjs/typeorm typeorm pg
 
 #create repository
 
+# remove uuid
+npm remove uuid
+
 ----------------------------------------------------------------
 # git 
 ############################
@@ -54,3 +57,6 @@ git reset --hard HEAD
 ############################
 Отбрасывает все ваши незафиксированные изменения
 git reset --hard HEAD
+
+# crlf
+git config --global core.autocrlf false

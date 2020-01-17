@@ -4,4 +4,4 @@
 -- describe table
 -- SELECT COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_NAME = 'task';
 
--- select * from task;
+select * from task;
