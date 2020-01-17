@@ -1,3 +1,13 @@
+# main section
+create module
+create controller
+create service
+create model
+create dto
+create Pipes
+create validations all data request
+
+
 # nestjs
 ############################
 # create module
