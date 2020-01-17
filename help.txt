@@ -11,6 +11,9 @@ nest g service tasks --no-spec
 # install uuid
 npm install --save uuid
 
+# Pipes - validation
+# install fore Pipes
+npm install class-validator class-transformer --save
 ----------------------------------------------------------------
 # git 
 ############################
