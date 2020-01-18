@@ -32,8 +32,10 @@ npm install class-validator class-transformer --save
 
 # install postgres ORM
 npm install --save @nestjs/typeorm typeorm pg
-
 # create file src/config/typeorm.config.ts
+
+# install bcrypt
+npm install bcrypt --save
 
 # create entity
 
