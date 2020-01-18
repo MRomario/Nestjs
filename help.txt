@@ -8,6 +8,10 @@ create Pipes
 create validations all data request
 install ORM
 
+# authentication
+create module authentication
+create controller authentication
+create service authentication
 
 # nestjs
 ############################
@@ -60,3 +64,4 @@ git reset --hard HEAD
 
 # crlf
 git config --global core.autocrlf false
+git config merge.renormalize true
